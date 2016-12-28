@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.UI", "MazeGeneratorAndSolver\MazeGeneratorAndSolver.UI.csproj", "{27D15C78-A851-487B-BB7E-734573D4705D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{94E18F0A-5117-49D8-800B-89579BD7E5CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-BusinessLogic", "2-BusinessLogic", "{6F1D509C-782B-448B-91F2-72F81D8F00F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.Contracts", "MazeGeneratorAndSolver.Contracts\MazeGeneratorAndSolver.Contracts.csproj", "{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.Library", "MazeGeneratorAndSolver.Library\MazeGeneratorAndSolver.Library.csproj", "{5CCCCD9A-E647-417F-9537-E3D7AA282076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.Dtos", "MazeGeneratorAndSolver.Dtos\MazeGeneratorAndSolver.Dtos.csproj", "{106AEFDF-D50A-432E-9F4D-B94D6AA5974A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.UI.UnitTest", "MazeGeneratorAndSolver.UI.UnitTest\MazeGeneratorAndSolver.UI.UnitTest.csproj", "{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorAndSolver.Library.UnitTest", "MazeGeneratorAndSolver.Library.UnitTest\MazeGeneratorAndSolver.Library.UnitTest.csproj", "{20FC2471-4225-452D-AC6D-0726056C1504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D15C78-A851-487B-BB7E-734573D4705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D15C78-A851-487B-BB7E-734573D4705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D15C78-A851-487B-BB7E-734573D4705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D15C78-A851-487B-BB7E-734573D4705D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCCCD9A-E647-417F-9537-E3D7AA282076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCCCD9A-E647-417F-9537-E3D7AA282076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCCCD9A-E647-417F-9537-E3D7AA282076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCCCD9A-E647-417F-9537-E3D7AA282076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106AEFDF-D50A-432E-9F4D-B94D6AA5974A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106AEFDF-D50A-432E-9F4D-B94D6AA5974A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106AEFDF-D50A-432E-9F4D-B94D6AA5974A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106AEFDF-D50A-432E-9F4D-B94D6AA5974A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FC2471-4225-452D-AC6D-0726056C1504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FC2471-4225-452D-AC6D-0726056C1504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FC2471-4225-452D-AC6D-0726056C1504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FC2471-4225-452D-AC6D-0726056C1504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27D15C78-A851-487B-BB7E-734573D4705D} = {94E18F0A-5117-49D8-800B-89579BD7E5CE}
+		{7A8F87B8-EEC8-4DD9-A8C0-18F3D6EB6467} = {94E18F0A-5117-49D8-800B-89579BD7E5CE}
+		{261B9D03-C7E4-4A79-82A9-2DE1F7E234C6} = {6F1D509C-782B-448B-91F2-72F81D8F00F4}
+		{5CCCCD9A-E647-417F-9537-E3D7AA282076} = {6F1D509C-782B-448B-91F2-72F81D8F00F4}
+		{106AEFDF-D50A-432E-9F4D-B94D6AA5974A} = {6F1D509C-782B-448B-91F2-72F81D8F00F4}
+		{20FC2471-4225-452D-AC6D-0726056C1504} = {6F1D509C-782B-448B-91F2-72F81D8F00F4}
+	EndGlobalSection
+EndGlobal
